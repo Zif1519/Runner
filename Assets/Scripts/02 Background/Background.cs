@@ -14,9 +14,9 @@ public class Background : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField]
-    private BackgroundType backgroundType = BackgroundType.brown;
+    private BackgroundType backgroundType = BackgroundType.purple;
     [SerializeField]
-    private float distance = 12.8f; // 각 배경들 사이의 거리
+    private float distance = 12f; // 각 배경들 사이의 거리
     [SerializeField]
     private float speed = 3; // 배경 이동 속도
 
